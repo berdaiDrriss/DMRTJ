@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,14 +53,388 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="abandonDePoste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="abandonDePoste.Designer.cs">
+      <DependentUpon>abandonDePoste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="archiffage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="archiffage.Designer.cs">
+      <DependentUpon>archiffage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="attestation DeTavail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attestation DeTavail.Designer.cs">
+      <DependentUpon>attestation DeTavail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="attestationContratDomiciliation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attestationContratDomiciliation.Designer.cs">
+      <DependentUpon>attestationContratDomiciliation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="attestationSalaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attestationSalaire.Designer.cs">
+      <DependentUpon>attestationSalaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ContratBail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContratBail.Designer.cs">
+      <DependentUpon>ContratBail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contratCdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contratCdi.Designer.cs">
+      <DependentUpon>contratCdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contratDeTravail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contratDeTravail.Designer.cs">
+      <DependentUpon>contratDeTravail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="decharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="decharge.Designer.cs">
+      <DependentUpon>decharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deduction.Designer.cs">
+      <DependentUpon>deduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="demandeMotDePasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demandeMotDePasse.Designer.cs">
+      <DependentUpon>demandeMotDePasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="demandeMotPasseSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demandeMotPasseSimple.Designer.cs">
+      <DependentUpon>demandeMotPasseSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="demandePatenteTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demandePatenteTransfer.Designer.cs">
+      <DependentUpon>demandePatenteTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depense.Designer.cs">
+      <DependentUpon>depense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depotLegal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depotLegal.Designer.cs">
+      <DependentUpon>depotLegal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmandeInscriptionTpConstitution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmandeInscriptionTpConstitution.Designer.cs">
+      <DependentUpon>DmandeInscriptionTpConstitution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdiSegment.cs" />
+    <Compile Include="encaissement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="encaissement.Designer.cs">
+      <DependentUpon>encaissement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ficheComptable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ficheComptable.Designer.cs">
+      <DependentUpon>ficheComptable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="immatriculationRc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="immatriculationRc.Designer.cs">
+      <DependentUpon>immatriculationRc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="journeauxLegeaux.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="journeauxLegeaux.Designer.cs">
+      <DependentUpon>journeauxLegeaux.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listeRepresantant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listeRepresantant.Designer.cs">
+      <DependentUpon>listeRepresantant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listeSocietee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listeSocietee.Designer.cs">
+      <DependentUpon>listeSocietee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginMotPasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginMotPasse.Designer.cs">
+      <DependentUpon>loginMotPasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuJuridique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuJuridique.Designer.cs">
+      <DependentUpon>menuJuridique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuJuridiques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuJuridiques.Designer.cs">
+      <DependentUpon>menuJuridiques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuTva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuTva.Designer.cs">
+      <DependentUpon>menuTva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="miseAdisposition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="miseAdisposition.Designer.cs">
+      <DependentUpon>miseAdisposition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ordreDeVirement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ordreDeVirement.Designer.cs">
+      <DependentUpon>ordreDeVirement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pocirationCourier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pocirationCourier.Designer.cs">
+      <DependentUpon>pocirationCourier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="procuration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="procuration.Designer.cs">
+      <DependentUpon>procuration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="pvAugmentationCapital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pvAugmentationCapital.Designer.cs">
+      <DependentUpon>pvAugmentationCapital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pvDissolution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pvDissolution.Designer.cs">
+      <DependentUpon>pvDissolution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pvLiquidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pvLiquidation.Designer.cs">
+      <DependentUpon>pvLiquidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pvObjetSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pvObjetSocial.Designer.cs">
+      <DependentUpon>pvObjetSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pvTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pvTransfer.Designer.cs">
+      <DependentUpon>pvTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="raportLiquidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="raportLiquidation.Designer.cs">
+      <DependentUpon>raportLiquidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="recape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recape.Designer.cs">
+      <DependentUpon>recape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="representant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="representant.Designer.cs">
+      <DependentUpon>representant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="resiliationBail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resiliationBail.Designer.cs">
+      <DependentUpon>resiliationBail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="satutSarl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="satutSarl.Designer.cs">
+      <DependentUpon>satutSarl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="societe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="societe.Designer.cs">
+      <DependentUpon>societe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="soldeDeToutCompte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="soldeDeToutCompte.Designer.cs">
+      <DependentUpon>soldeDeToutCompte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="versementChequesEffets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="versementChequesEffets.Designer.cs">
+      <DependentUpon>versementChequesEffets.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="abandonDePoste.resx">
+      <DependentUpon>abandonDePoste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="archiffage.resx">
+      <DependentUpon>archiffage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attestation DeTavail.resx">
+      <DependentUpon>attestation DeTavail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attestationContratDomiciliation.resx">
+      <DependentUpon>attestationContratDomiciliation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attestationSalaire.resx">
+      <DependentUpon>attestationSalaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContratBail.resx">
+      <DependentUpon>ContratBail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contratCdi.resx">
+      <DependentUpon>contratCdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contratDeTravail.resx">
+      <DependentUpon>contratDeTravail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="decharge.resx">
+      <DependentUpon>decharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deduction.resx">
+      <DependentUpon>deduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demandeMotDePasse.resx">
+      <DependentUpon>demandeMotDePasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demandeMotPasseSimple.resx">
+      <DependentUpon>demandeMotPasseSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demandePatenteTransfer.resx">
+      <DependentUpon>demandePatenteTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depense.resx">
+      <DependentUpon>depense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depotLegal.resx">
+      <DependentUpon>depotLegal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DmandeInscriptionTpConstitution.resx">
+      <DependentUpon>DmandeInscriptionTpConstitution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="encaissement.resx">
+      <DependentUpon>encaissement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ficheComptable.resx">
+      <DependentUpon>ficheComptable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="immatriculationRc.resx">
+      <DependentUpon>immatriculationRc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="journeauxLegeaux.resx">
+      <DependentUpon>journeauxLegeaux.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeRepresantant.resx">
+      <DependentUpon>listeRepresantant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeSocietee.resx">
+      <DependentUpon>listeSocietee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginMotPasse.resx">
+      <DependentUpon>loginMotPasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuJuridique.resx">
+      <DependentUpon>menuJuridique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuJuridiques.resx">
+      <DependentUpon>menuJuridiques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuTva.resx">
+      <DependentUpon>menuTva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="miseAdisposition.resx">
+      <DependentUpon>miseAdisposition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ordreDeVirement.resx">
+      <DependentUpon>ordreDeVirement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pocirationCourier.resx">
+      <DependentUpon>pocirationCourier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="procuration.resx">
+      <DependentUpon>procuration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +443,48 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="pvAugmentationCapital.resx">
+      <DependentUpon>pvAugmentationCapital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pvDissolution.resx">
+      <DependentUpon>pvDissolution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pvLiquidation.resx">
+      <DependentUpon>pvLiquidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pvObjetSocial.resx">
+      <DependentUpon>pvObjetSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pvTransfer.resx">
+      <DependentUpon>pvTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="raportLiquidation.resx">
+      <DependentUpon>raportLiquidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recape.resx">
+      <DependentUpon>recape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="representant.resx">
+      <DependentUpon>representant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resiliationBail.resx">
+      <DependentUpon>resiliationBail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="satutSarl.resx">
+      <DependentUpon>satutSarl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="societe.resx">
+      <DependentUpon>societe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="soldeDeToutCompte.resx">
+      <DependentUpon>soldeDeToutCompte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="versementChequesEffets.resx">
+      <DependentUpon>versementChequesEffets.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +497,44 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO CERCLER FIDUPLUS 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiduplus-20226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO CERCLER FIDUPLUS 200.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

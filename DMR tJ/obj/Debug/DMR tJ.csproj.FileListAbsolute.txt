@@ -1,0 +1,55 @@
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\bin\Debug\DMR tJ.exe.config
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\bin\Debug\DMR tJ.exe
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\bin\Debug\DMR tJ.pdb
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR tJ.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.Form1.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.Properties.Resources.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR tJ.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR tJ.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR tJ.exe
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR tJ.pdb
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.deduction.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR tJ.csproj.ResolveComReference.cache
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.demande_extre_de_role.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.demandeMotDePasse.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.DmandeInscriptionTpConstitution.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.decharge.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.depotLegal.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.attestationDeTavail.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.soldeDeToutCompte.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.archiffage.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.demandeMotPasseSimple.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.attestationContratDomiciliation.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.menuJuridique.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.abandonDePoste.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.journeauxLegeaux.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.ficheComptable.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.contratDeTravail.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.resiliationContratDomiciliation.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.depense.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.ContratBail.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.satutSarl.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.procuration.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.resiliationBail.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.miseAdisposition.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.contratCdi.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.societe.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.encaissement.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.menuTva.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.menuJuridiques.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.attestationSalaire.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.immatriculationRc.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.representant.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.loginMotPasse.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.listeSocietee.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.listeRepresantant.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.pocirationCourier.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.ordreDeVirement.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.versementChequesEffets.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.recape.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.pvTransfer.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.pvDissolution.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.pvLiquidation.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.raportLiquidation.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.pvObjetSocial.resources
+C:\Users\DELL\Desktop\DMR tJ\DMR tJ\obj\Debug\DMR_tJ.pvAugmentationCapital.resources
